@@ -1,0 +1,12 @@
+# extracting frames to a folder 
+
+python extract.py carvid.mp4(path to video) frames(directory) 
+
+python extract.py carvid.mp4 frames
+
+
+# running the code to get final output 
+
+python finaltest.py --model=models/raft-things.pth (path to model chkpoint) --curpath=frames(directory which has input images) --path=final( downscaled images go to this directory )
+
+python finaltest.py --model=models/raft-things.pth --curpath=frames --path=final

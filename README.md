@@ -1,1 +1,2 @@
-# Robust-Image-Registration-PRISM
+The aim of the project is too peform robust image registration to aggregate continous frames of a short clip to get a dramatized final image output. The continous frames have camera shake between frames with a stationary background and moving objects. 
+By analyzing optical flow and executing image processing techniques, we obtain final output. Frame interpolation can produce smoother results but wasn't utilized for KPI time requirements. 
